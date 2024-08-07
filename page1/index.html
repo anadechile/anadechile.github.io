@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+
+        <header>
+            <nav>
+                <h1>ANADECHILE</h1>
+                <ul>
+                    <li><a href="https://anadechile.blogspot.com/">Archivo Teatral</a></li>
+                    <li><a href="https://github.com/anadechile/">GitHub</a></li>
+                </ul>
+            </nav>
+        </header>
+        <br> 
+        <button id="MegustaPagina">Me encanta la página</button>
+    
+        <section id="about">
+            <h2>PRESENTACIÓN</h2>
+            <img id="ana" src="./assets/img/Ana.jpg" alt="">
+            <p>Soy Ana María, actriz diplomada en Pedagóga Teatral y Profesora de Educación Básica.</p>
+        </section>
+    
+        <section id="portfolio">
+            <h2>Fotografías de aves</h2>
+            <div class="gallery">
+                <div class="gallery-item">
+                    <img src="./assets/img/mr black.JPG" alt="Fotografía 1">
+
+                    <div class="los-likes">
+                        <span id="conteo-likes1">0 likes</span>
+                        <button id="boton-like1">Me gusta</button>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="./assets/img/jasper.JPG" alt="Fotografía 2">
+                    <div class="los-likes">
+                        <span id="conteo-likes2">0 likes</span>
+                        <button id="boton-like2">Me gusta</button>
+                    </div>
+                </div>
+
+        
+                <h2>Video de naturaleza</h2>
+                <br> <br>
+                <div class="gallery-item">
+                    <video controls>
+                        <source src="./assets/videos/ave.mp4" type="video/mp4">
+                        Tu navegador no soporta el video.
+                    </video>
+                    <div class="los-likes">
+                        <span id="conteo-likes3">0 likes</span>
+                        <button id="boton-like3">Me gusta</button>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <video controls>
+                        <source src="./assets/videos/mar.mp4" type="video/mp4">
+                        Tu navegador no soporta el video.
+                    </video>
+                    <div class="los-likes">
+                        <span id="conteo-likes4">0 likes</span>
+                        <button id="boton-like4">Me gusta</button>
+                    </div>
+                
+            </div>
+
+
+            </div>
+        </section>
+
+        <div class="transicion-foto">
+        <img class="imageave" src="./assets/img/ave.jpg" alt="Descripción de la imagen" />
+       </div>
+        <br>
+
+        <div class="apiPerros">
+            <h2>Imagenes de perros</h2> 
+            <h3>Haz click para ver una foto</h3> <br>
+            <button id="fetchDogImage">Nuevo perro</button> <br><br> <img id="dogImage" src=""
+                alt="Random Dog">
+        </div>
+        <br> <br>
+
+        <section id="contact">
+            <h2>Contacto</h2>
+            <form>
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    
+        <footer>
+            <p id="pdefooter">&copy;Todos los derechos reservados.</p>
+        </footer>
+    
+
+
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
